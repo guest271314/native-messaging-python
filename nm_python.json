@@ -1,0 +1,7 @@
+{
+  "name": "nm_python",
+  "description": "Python Native Messaging Host",
+  "path": "",
+  "type": "stdio",
+  "allowed_origins": []
+}
