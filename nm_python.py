@@ -46,6 +46,6 @@ except Exception as e:
     sys.stdout.buffer.flush()
     sys.stdin.buffer.flush()
     # https://discuss.python.org/t/how-to-read-1mb-of-input-from-stdin/22534/14
-    with open("nm_python.log", "w", encoding="utf-8") as f:
+    with open('nm_python.log', 'w', encoding='utf-8') as f:
         traceback.print_exc(file=f)
     sys.exit(0)
